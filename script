@@ -17,8 +17,9 @@ local Window  = Library.CreateLib("Pop it trading by PRODYX", "Ocean")
 
 local Tab     = Window:NewTab("Credits")
                 local Section = Tab:NewSection("new in the script")
-local Section = Tab:NewSection("added shiels script")
-local Section = Tab:NewSection("discord shiels: https://discord.gg/x57Xk65xZs")
+local Section = Tab:NewSection("added shiels script
+her discord: discord shiels: https://discord.gg/x57Xk65xZs")
+local Section = Tab:NewSection("")
 local Section = Tab:NewSection("soon")
 local Section = Tab:NewSection("soon")
 

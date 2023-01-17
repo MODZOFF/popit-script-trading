@@ -6,6 +6,9 @@ local Section = Tab:NewSection("news")
 local Section = Tab:NewSection("added shield script")
 local Section = Tab:NewSection("added XRay on Scripts tab")
 local Section = Tab:NewSection("added kiroft script")
+Section:NewKeybind("Close Tab open Tab", "Close Tab open Tab", Enum.KeyCode.Tab, function()
+Library:ToggleUI()
+    end)
 
         local Tab     = Window:NewTab("all game gui")
 
@@ -27,8 +30,6 @@ end)
 Section:NewButton("shield script" , "shield script", function()
 _G.credits = "Credits to iShield. DISCORD SERVER INVITE LINK: https://discord.gg/x57Xk65xZs"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/iShield2005/scripts/master/shieldhubloader"))()
-end)
-
 
 
 

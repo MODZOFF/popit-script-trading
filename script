@@ -1,6 +1,6 @@
 --// discord : PRODYX#7545
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window  = Library.CreateLib("Pop it trading v1.2 made by xovgaming", "Serpent")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MODZOFF/popit-script-trading/main/script2"))()
+local Window  = Library.CreateLib("Pop it trading by PRODYX", "Ocean")
 local Tab     = Window:NewTab("Main Scripts")
 local Section = Tab:NewSection("Buy NFTS")
 local Section = Tab:NewSection("Click the Tab to open and Close")

@@ -3,7 +3,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MODZOFF/popit-script-trading/main/script2"))()
 local Window  = Library.CreateLib("Pop it trading by PRODYX", "Ocean")
 local Tab     = Window:NewTab("new")
-                local Section = Tab:NewSection("new:")
+local Section = Tab:NewSection("new:")
 local Section = Tab:NewSection("added shiels script
 her discord: https://discord.gg/x57Xk65xZs")
 local Section = Tab:NewSection("soon")

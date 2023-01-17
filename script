@@ -1,13 +1,127 @@
 --// discord : PRODYX#7545
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
-local Window  = Library.CreateLib("Pop it trading by PRODYX", "Serpent")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MODZOFF/popit-script-trading/main/script2"))()
+local Window  = Library.CreateLib("Pop it trading by PRODYX", "Ocean")
+
+
+
+
+
+
+
+
+
+
+
+
+
 local Tab     = Window:NewTab("Credits")
                 local Section = Tab:NewSection("new in the script")
 local Section = Tab:NewSection("added shiels script")
 local Section = Tab:NewSection("discord shiels: https://discord.gg/x57Xk65xZs")
 local Section = Tab:NewSection("soon")
 local Section = Tab:NewSection("soon")
+
+
+
+
+
+
+
+
+
+
+
+
+
+        local Tab     = Window:NewTab("Scripts")
+        local Section = Tab:NewSection("Scripts")
+
+        Section:NewButton("inf yeld"  , "inf yeld script", function()
+            loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+        end)
+
+Section:NewButton("Safe Place for dupe", "On the sky", function()
+    Instance.new('Part',workspace)
+Local = game:GetService('Players').LocalPlayer
+Char  = Local.Character
+touched,tpdback = false, false
+Local.CharacterAdded:connect(function(char)
+   if script.Disabled ~= true then
+       wait(.25)
+       loc = Char.HumanoidRootPart.Position
+       Char:MoveTo(box.Position + Vector3.new(0,.5,0))
+   end
+end)
+game:GetService('UserInputService').InputBegan:connect(function(key)
+   if key.KeyCode == Enum.KeyCode.Equals then
+       if script.Disabled ~= true then
+           script.Disabled = true
+           print'you may re-execute'
+       end
+   end
+end)
+box = Instance.new('Part',workspace)
+box.Anchored = true
+box.CanCollide = true
+box.Size = Vector3.new(180,1,180)
+box.Position = Vector3.new(0,450907,0)
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,450909,0)
+end)
+Section:NewButton("Go Back To Spawn" , "playerback", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(60,19,-267)
+end)
+
+local Section = Tab:NewSection("")
+    
+Section:NewButton("XRAY CAN SEE VALUES" , "XRay", function()
+game.Players.localPlayer.XRay.Value = true
+end
+
+
+        )Section:NewSlider("Speed" , "Speed" , 30, 30, function(v)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+Section:NewButton("shiels script gui(join server discord with credit)", "shield script gui", function()
+_G.credits = "Credits to iShield. DISCORD SERVER INVITE LINK: https://discord.gg/x57Xk65xZs"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iShield2005/scripts/master/shieldhubloader"))()
+end)
+
+Section:NewButton("Flygui" , "Makes the player fly", function()
+--ARCEUS X FLY V2 SCRIPT BY me_ozoneYT
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+end)
+
+Section:NewButton("delete other item" , "delete other item", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
+end)
+
+
+local Section = Tab:NewSection("use autoclick")
+Section:NewButton("Crash server", "Crash server", function()
+    local args = {
+    [1] = "Jet"
+    }
+
+    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 local Tab     = Window:NewTab("Main Scripts")
 local Section = Tab:NewSection("Buy NFTS")
@@ -37,6 +151,24 @@ end)
 Section:NewKeybind("Close Tab open Tab", "Close Tab open Tab", Enum.KeyCode.Tab, function()
     Library:ToggleUI()
 end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 local Tab     = Window:NewTab("Dupe last step")
@@ -312,6 +444,26 @@ end)
     
 end)
                       
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		      
+		 
                 local Tab     = Window:NewTab("Dupe start up")
                 local Section = Tab:NewSection("Dupe if you reach the TNT go to Dupe last step")
                 
@@ -424,6 +576,32 @@ end)
                                                                     end
                                                         end)
                                                 
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
 
                 local Tab     = Window:NewTab("buy items")
                 local Section = Tab:NewSection("Stuff")
@@ -487,6 +665,31 @@ Section:NewButton("" , "", function()
     
 end)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local Tab     = Window:NewTab("Drop Items")
 local Section = Tab:NewSection("Drop stuff (must click to drop)")
 Section:NewButton("Drop The Banana", "Drops The Banana", function()
@@ -543,81 +746,31 @@ Section:NewButton("" , "", function()
     
 end)
 
-    
-
-        local Tab     = Window:NewTab("Scripts")
-        local Section = Tab:NewSection("Scripts")
-
-        Section:NewButton("inf yeld"  , "inf yeld script", function()
-            loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-        end)
-
-Section:NewButton("Safe Place for dupe", "On the sky", function()
-    Instance.new('Part',workspace)
-Local = game:GetService('Players').LocalPlayer
-Char  = Local.Character
-touched,tpdback = false, false
-Local.CharacterAdded:connect(function(char)
-   if script.Disabled ~= true then
-       wait(.25)
-       loc = Char.HumanoidRootPart.Position
-       Char:MoveTo(box.Position + Vector3.new(0,.5,0))
-   end
-end)
-game:GetService('UserInputService').InputBegan:connect(function(key)
-   if key.KeyCode == Enum.KeyCode.Equals then
-       if script.Disabled ~= true then
-           script.Disabled = true
-           print'you may re-execute'
-       end
-   end
-end)
-box = Instance.new('Part',workspace)
-box.Anchored = true
-box.CanCollide = true
-box.Size = Vector3.new(180,1,180)
-box.Position = Vector3.new(0,450907,0)
-
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0,450909,0)
-end)
-Section:NewButton("Go Back To Spawn" , "playerback", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(60,19,-267)
-end)
-
-local Section = Tab:NewSection("")
-    
-Section:NewButton("XRAY CAN SEE VALUES" , "XRay", function()
-game.Players.localPlayer.XRay.Value = true
-end
 
 
-        )Section:NewSlider("Speed" , "Speed" , 30, 30, function(v)
-    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
-end)
-
-Section:NewButton("shiels script gui(join server discord with credit)", "shield script gui", function()
-_G.credits = "Credits to iShield. DISCORD SERVER INVITE LINK: https://discord.gg/x57Xk65xZs"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/iShield2005/scripts/master/shieldhubloader"))()
-end)
-
-Section:NewButton("Flygui" , "Makes the player fly", function()
---ARCEUS X FLY V2 SCRIPT BY me_ozoneYT
-loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
-end)
-
-Section:NewButton("delete other item" , "delete other item", function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
-end)
 
 
-local Section = Tab:NewSection("use autoclick")
-Section:NewButton("Crash server", "Crash server", function()
-    local args = {
-    [1] = "Jet"
-    }
 
-    game:GetService("ReplicatedStorage").RemoteEvents.BuyItemCash:FireServer(unpack(args))
-end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 local Tab     = Window:NewTab("anti reaper")
                 local Section = Tab:NewSection("this Tab is for the annoying reaper")
 

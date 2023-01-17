@@ -2,9 +2,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MODZOFF/popit-script-trading/main/script2"))()
 local Window  = Library.CreateLib("Pop it trading by PRODYX", "Ocean")
 local Tab     = Window:NewTab("update")
-
-local Section = Tab:NewSection("Made the gui Dragable")
-local Section = Tab:NewSection("added safe place on Scripts tab")
+local Section = Tab:NewSection("news")
+local Section = Tab:NewSection("added shield script")
 local Section = Tab:NewSection("added XRay on Scripts tab")
 local Section = Tab:NewSection("added Speed on Scripts tab")
 local Section = Tab:NewSection("addeed inf jump on Scripts tab")

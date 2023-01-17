@@ -2,14 +2,6 @@
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MODZOFF/popit-script-trading/main/script2"))()
 local Window  = Library.CreateLib("Pop it trading by PRODYX", "Ocean")
-local Tab     = Window:NewTab("Update Credits")
-                local Section = Tab:NewSection("Made the gui Dragable")
-local Section = Tab:NewSection("added safe place on Scripts tab")
-local Section = Tab:NewSection("added XRay on Scripts tab")
-local Section = Tab:NewSection("added Speed on Scripts tab")
-local Section = Tab:NewSection("addeed inf jump on Scripts tab")
-end)
-
 local Tab     = Window:NewTab("Main Scripts")
 local Section = Tab:NewSection("Buy NFTS")
 local Section = Tab:NewSection("Click the Tab to open and Close")
@@ -1040,6 +1032,11 @@ local Tab     = Window:NewTab("anti reaper")
                                                                     end
                                                                 end)
 Section = Tab:NewSection("Make sure you have alot of Watermelon")
-
+local Tab     = Window:NewTab("Update Credits")
+                local Section = Tab:NewSection("Made the gui Dragable")
+local Section = Tab:NewSection("added safe place on Scripts tab")
+local Section = Tab:NewSection("added XRay on Scripts tab")
+local Section = Tab:NewSection("added Speed on Scripts tab")
+local Section = Tab:NewSection("addeed inf jump on Scripts tab")
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/manimcool21/Keyboard-FE/main/Protected%20(3).lua'),true))()
 --pro
